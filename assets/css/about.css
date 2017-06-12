@@ -14,6 +14,7 @@ div{
   position: fixed;
   z-index: 100;
   width: 20%;
+min-width: 200px;
 }
 span{
   color: silver;
@@ -53,8 +54,8 @@ video#bgvid {
   top: 51%;
   left: 55%;
   width: auto;
-  height: 145%;
+  height: 145vh;
   z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-55%) translateY(-50%);
   background-size: cover; 
 }

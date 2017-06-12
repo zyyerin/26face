@@ -291,7 +291,7 @@ $('body').append($newdiv);
 
 //find the dominant case
 var mostCase = Math.max.apply(Math, cases);
-console.log(mostCase);
+//console.log(mostCase);
 
 
 
@@ -300,7 +300,7 @@ function returnIndex(){
 	for (var i = 0; i < cases.length ; i++){
 		//console.log(cases[i]);
 		if (cases[i] === mostCase) {
-			console.log('Index of the dominant case: ' + i);
+            //console.log('Index of the dominant case: ' + i);
 			return i;
 			break;
 		}
@@ -311,7 +311,7 @@ var mostIndex = returnIndex();
 
 
 
- switch (mostIndex){
+ switch (mostIndex) {
 	//a-g
 	case 0:
 	$('.box').css({
@@ -412,7 +412,7 @@ $("p").text("want to lie down :-{");
  	$('.box').removeClass("diagboth diagright").toggleClass("diagleft").css({
  		borderColor : 'ghostwhite',
  		transition : '1s ease-in-out'
- 	});;
+ 	});
  	$("p").text("headache Q-Q");
  	break;//n
 
